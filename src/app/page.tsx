@@ -11,12 +11,12 @@ export default function Home() {
     setIsNo(true)
   }
 
-  const [top,setTop] = useState(800)
-  const [left,setLeft] = useState(250)
+  const [top,setTop] = useState(100)
+  const [left,setLeft] = useState(100)
 
   const dodge = () => {
-    setTop(Math.floor(Math.random() * 600) + 1)
-    setLeft(Math.floor(Math.random() * 200) + 1)
+    setTop(Math.floor(Math.random() * 700) + 1)
+    setLeft(Math.floor(Math.random() * 250) + 1)
   }
 
   const sheSaidYEs = () => {
