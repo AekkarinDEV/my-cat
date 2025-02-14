@@ -15,8 +15,8 @@ export default function Home() {
   const [left,setLeft] = useState(250)
 
   const dodge = () => {
-    setTop(Math.floor(Math.random() * 800) + 1)
-    setLeft(Math.floor(Math.random() * 250) + 1)
+    setTop(Math.floor(Math.random() * 600) + 1)
+    setLeft(Math.floor(Math.random() * 200) + 1)
   }
 
   const sheSaidYEs = () => {
