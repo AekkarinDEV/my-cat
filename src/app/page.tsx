@@ -29,7 +29,7 @@ export default function Home() {
       <div className="w-96  flex flex-col items-center gap-4">
         {isNo ? <Image src={"/main (2).png"} width={240} alt="ohagi" height={240}/> :<Image src={"/main (1).png"} width={240} alt="ohagi" height={240}/>}
         <h1 className="text-xl font-cute text-[#E195AB] drop-shadow shadow-black">WILL YOU BE MINE VALENTINE??</h1>
-        <div className="grid w-full grid-cols-2 px-8">
+        <div className="grid w-full grid-cols-2 px-8 place-items-center">
           <button onClick={sheSaidYEs} className="border-2 border-[#524A4E] text-[#524A4E] py-1 rounded-xl bg-white w-32 font-cute">Yessss!!!</button>
           {isNo ? <div></div>: <button className="border-2 border-[#BB8760] text-[#BB8760] py-1 rounded-xl bg-white w-32 font-cute top-" onClick={firstNo}>No!!!</button>}
         </div>
